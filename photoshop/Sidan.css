@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#CCC;
+	margin:0;
+	padding:0;
+}
+#bakgrundsbild {
+	width:100%;
+	height:100%;
+	background-image:url(../sk%C3%A4mt1.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	position:absolute;
+	background-attachment:fixed;
+	overflow:auto;
+}
+#meny {
+	background-color:rgba(255,255,255,0.6);
+	width:1800px;
+	height:auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	-moz-box-shadow: 5px -6px 3px #000000;
+	-webkit-box-shadow: 5px -6px 3px #000000;
+	box-shadow: 5px -6px 3px #000000;
+}
+header {
+	background-color:#C9C;
+	width:1790px;
+	height:200px;
+	padding-left:50px;
+	box-sizing:border-box;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+.bildBox {
+	float:left;
+}
+h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#0FF;
+	font-size:50px;
+	float:left;
+	margin-left:340px;
+	text-shadow:6px 5px 8px #000000;
+}
+nav {
+	background-color:#0FF;
+	width:1800px;
+	height:50px;
+}
+a:hover {
+	text-decoration:underline;
+	color:#FFF;
+	font-weight:bold;
+}
+ul {
+	list-style:none;
+	background-color:#0F9;
+	height:100%;
+}
+article {
+	background-color:rgba(255,255,255,0.6);
+	width:1800px;
+	height:auto;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
